@@ -1,8 +1,8 @@
-from dispositivos.celular import Celular
-from dispositivos.almacenamientoExterno import AlmacenamientoExterno
-from dispositivos.computador import Computador
-from almacenamientos.ram import Ram
-from almacenamientos.almacenamiento import Almacenamiento
+from src.dispositivos.celular import Celular
+from src.dispositivos.almacenamientoExterno import AlmacenamientoExterno
+from src.dispositivos.computador import Computador
+from src.almacenamientos.ram import Ram
+from src.almacenamientos.almacenamiento import Almacenamiento
 
 if __name__ == "__main__":
     cel = Celular("Alejandro", "Realme 8 pro", Almacenamiento(128, "SSD"))
