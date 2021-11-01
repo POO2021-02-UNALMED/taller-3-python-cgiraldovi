@@ -1,7 +1,7 @@
-import control
+import Control
 class TV:
     numTV = 0
-    control = control()
+    control = Control()
 
     def __init__(self, marca, estado):
         self._marca = marca

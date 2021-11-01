@@ -1,6 +1,6 @@
-import tv
+import TV
 class Control:
-    tv = tv("s", False)
+    tv = TV("s", False)
 
     def turnOn(self):
         self.tv.turnOn()

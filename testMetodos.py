@@ -1,6 +1,6 @@
-from televisores.tv import TV
-from televisores.control import Control
-from televisores.marca import Marca
+from televisores.TV import TV
+from televisores.Control import Control
+from televisores.Marca import Marca
 
 
 def testMetodoCanal():
