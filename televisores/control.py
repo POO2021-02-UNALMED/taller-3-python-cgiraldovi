@@ -1,6 +1,4 @@
-from televisores.tv import TV
 class Control:
-    tv = TV("s", False)
 
     def turnOn(self):
         self.tv.turnOn()
