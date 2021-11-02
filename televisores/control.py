@@ -1,4 +1,4 @@
-import TV
+from televisores.TV import TV
 class Control:
     tv = TV("s", False)
 
